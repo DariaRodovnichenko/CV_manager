@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+     <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Daria Rodovnichenko - Work Experience</title>
+    
+  </head>
+
+  <body>
+    
+    <!-- Main Content Wrapper -->
+    <section class="content-with-sidebar">
+     
+      <!-- Language Selector -->
+    <nav id="language-selector" aria-label="Language Selector">
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('fr')">Français</button>
+    </nav>
+     
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- About Me -->
+        <div class="about-me-container" data-key="about-me">
+          <h1 data-key="name" class="my-name">Daria Rodovnichenko</h1>
+          <h2 data-key="profession" class="my-profession">
+            Professionnelle Administrative | Support RH
+          </h2>
+          <p data-key="summary" class="my-summary">
+            Professionnelle administrative expérimentée...
+          </p>
+          <ul data-key="skills" class="main-skills">
+            <li>Gestion des opérations quotidiennes</li>
+            <!-- Other skills will be dynamically loaded -->
+          </ul>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="work-experience-container" data-key="work-experience">
+          <h3 class="main-content-title">Expérience Professionnelle</h3>
+          <!-- Dynamic work experience items will populate here -->
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img
+          src="./img/photo1.jpg"
+          alt="Daria Rodovnichenko's Photo"
+          width="370px"
+          class="my-photo"
+        />
+
+        <!-- Contacts -->
+        <div data-key="contacts" class="contacts-container">
+          <h3 class="sidebar-title">Contacts</h3>
+          <!-- Dynamic contacts items will populate here -->
+        </div>
+
+        <!-- Education -->
+        <div data-key="education" class="education-container">
+          <h3 class="sidebar-title" id="education-title"></h3>
+          <!-- Dynamic education items will populate here -->
+        </div>
+
+        <!-- Technical Skills -->
+        <div data-key="tech-skills" class="tech-skills-container">
+          <h3 class="sidebar-title">Compétences Techniques</h3>
+          <!-- Dynamic tech skills items will populate here -->
+        </div>
+
+        <!-- Soft Skills -->
+        <div data-key="soft-skills" class="soft-skills-container">
+          <h3 class="sidebar-title">Compétences Personnelles</h3>
+          <!-- Dynamic soft skills items will populate here -->
+        </div>
+
+        <!-- Languages -->
+        <div data-key="languages" class="languages-container">
+          <h3 class="sidebar-title">Langues</h3>
+          <!-- Dynamic languages items will populate here -->
+        </div>
+      </aside>
+    </section>
+
+    <script src="./js/translations.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
