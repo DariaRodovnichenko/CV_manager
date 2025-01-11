@@ -4,9 +4,9 @@ const translations = {
     aboutMe: [
       {
         name: 'Daria Rodovnichenko',
-        profession: 'Administrative Assistant | HR Support',
+        profession: 'Coffee Shop Manager | Head Barista',
         summary:
-          'Experienced administrative professional with over 7 years in team management, process optimization, and customer service. Proven track record in coordinating administrative tasks, training employees, and managing daily operations in dynamic environments. Passionate about fostering positive work environments and enhancing administrative processes.',
+          'Experienced barista and cafe manager with over 7 years of experience in customer service, team management and business operations. Strong experience in increasing sales and optimizing operations in dynamic, fast-paced environments. Passionate about coffee culture and dedicated to providing exceptional service.',
 
         skills: 'Key Skills',
         list: [
@@ -35,7 +35,7 @@ const translations = {
         period: 'July 2020 - May 2023',
         responsibilities: [
           'Manage all aspects of the facility, including schedule planning, stock management, and collaboration with suppliers.',
-          'Optimize processes to increase profitability by 5% in the first year.',
+          'Optimize processes to increase profitability by 10% in the first year.',
           'Trained and integrated team members to maintain high service standards and performance.',
           'Lead process optimization strategy, ensuring efficient workflow and continuous improvement of company profitability.',
         ],
@@ -136,9 +136,9 @@ const translations = {
     aboutMe: [
       {
         name: 'Daria Rodovnichenko',
-        profession: 'Professionnelle Administrative | Support RH',
+        profession: 'Gérant De Café | Chef Barista',
         summary:
-          "Professionnelle administrative expérimentée avec plus de 7 ans d'expérience en gestion d'équipe, optimisation des processus et service client. Réussites prouvées dans la coordination des tâches administratives, la formation des collaborateurs et la gestion des opérations quotidiennes dans des environnements dynamiques.Passionnée par le développement d'environnements de travail positifs et l'amélioration des processus administratifs.",
+          "Barista expérimentée et gestionnaire de café avec plus de 7 ans d'expérience dans la serviceclient, la gestion d'équipe et les opérations commerciales. Solide expériance dans l'augmentation des ventes et l'optimisation des opérations dans des environnements dynamiques et à rythme soutenu. Passionnée par la culture du café et dédiée à offrir un service exceptionnel.",
 
         skills: 'Compétences Clés',
         list: [
