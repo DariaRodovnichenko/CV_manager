@@ -6,7 +6,7 @@ const translations = {
         name: 'Daria Rodovnichenko',
         profession: 'Coffee Shop Manager | Head Barista',
         summary:
-          'Experienced barista and cafe manager with over 7 years of experience in customer service, team management and business operations. Strong experience in increasing sales and optimizing operations in dynamic, fast-paced environments. Passionate about coffee culture and dedicated to providing exceptional service.',
+          'Experienced barista and cafe manager with over 8 years of experience in customer service, team management and business operations. Strong experience in increasing sales and optimizing operations in dynamic, fast-paced environments. Passionate about coffee culture and dedicated to providing exceptional service.',
 
         skills: 'Key Skills',
         list: [
@@ -148,7 +148,7 @@ const translations = {
         name: 'Daria Rodovnichenko',
         profession: 'Gérant De Café | Chef Barista',
         summary:
-          "Barista expérimentée et gestionnaire de café avec plus de 7 ans d'expérience dans la serviceclient, la gestion d'équipe et les opérations commerciales. Solide expériance dans l'augmentation des ventes et l'optimisation des opérations dans des environnements dynamiques et à rythme soutenu. Passionnée par la culture du café et dédiée à offrir un service exceptionnel.",
+          "Barista expérimentée et gestionnaire de café avec plus de 8 ans d'expérience dans la serviceclient, la gestion d'équipe et les opérations commerciales. Solide expériance dans l'augmentation des ventes et l'optimisation des opérations dans des environnements dynamiques et à rythme soutenu. Passionnée par la culture du café et dédiée à offrir un service exceptionnel.",
 
         skills: 'Compétences Clés',
         list: [
