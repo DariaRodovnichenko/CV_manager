@@ -90,7 +90,7 @@ const translations = {
       {
         school: 'Nomades Advanced Technologies | Geneva',
         specialization: 'Angular Developer',
-        period: 'March 2025 - Maz 2025',
+        period: 'March 2025 - May 2025',
       },
       {
         school: 'Nomades Advanced Technologies | Geneva',
