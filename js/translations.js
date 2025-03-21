@@ -88,7 +88,17 @@ const translations = {
     educationTitle: 'Education',
     education: [
       {
-        university: 'IT School GoIt | Ukraine',
+        school: 'Nomades Advanced Technologies | Geneva',
+        specialization: 'Angular Developer',
+        period: 'March 2025 - Maz 2025',
+      },
+      {
+        school: 'Nomades Advanced Technologies | Geneva',
+        specialization: 'JS Software Developer',
+        period: 'January 2025 - March 2025',
+      },
+      {
+        school: 'IT School GoIt | Ukraine',
         specialization: 'Fullstack Developer',
         period: 'February 2023 - April 2024',
       },
@@ -219,7 +229,17 @@ const translations = {
     educationTitle: 'Education',
     education: [
       {
-        university: 'IT School GoIt | Ukraine',
+        school: 'Nomades Advanced Technologies | Genève',
+        specialization: 'Développeur Angular',
+        period: 'Mars 2025 - Mai 2025',
+      },
+      {
+        school: 'Nomades Advanced Technologies | Genève',
+        specialization: 'Développeur Java Script',
+        period: 'Janvier 2025 - Mars 2025',
+      },
+      {
+        school: 'IT School GoIt | Ukraine',
         specialization: 'Programme Développeur Fullstack',
         period: 'Février 2023 - Avril 2024',
       },

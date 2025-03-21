@@ -329,6 +329,10 @@ p {
   color: #161d2a;
 }
 
+.skills-list:last-child {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column;

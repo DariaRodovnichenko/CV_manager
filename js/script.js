@@ -65,17 +65,22 @@ function updateEducation(language) {
   const educationTitle = translations[language].educationTitle;
 
   educationSection.innerHTML = `
-     <h3 class="sidebar-title">${educationTitle}</h3>${educationData
-    .map(
-      edu => `
+    <h3 class="sidebar-title">${educationTitle}</h3>${educationData
+    .map(edu => {
+      const institution =
+        edu.university && edu.school
+          ? `${edu.university} || ${edu.school}`
+          : edu.university || edu.school || '';
+      return `
       <div class="education-item">
-            <h4 class="education-university">${edu.university}</h4>
+        <h4 class="education-university">${institution}</h4>
         <p class="education-specialization">${edu.specialization}</p>
         <p class="education-period">${edu.period}</p>
       </div>
-    `
-    )
-    .join('')}`;
+      `;
+    })
+    .join('')}
+  `;
 }
 
 function updateTechSkills(language) {
