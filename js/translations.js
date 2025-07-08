@@ -90,7 +90,7 @@ const translations = {
       phone: '+41 76 702 86 65',
       email: 'daria.rodovnichenko@gmail.com',
       linkedin: {
-        label: 'LinkedIn',
+        label: 'https://www.linkedin.com/in/daria-rodovnichenko/',
         url: 'https://www.linkedin.com/in/daria-rodovnichenko/',
       },
     },
@@ -149,7 +149,7 @@ const translations = {
     languages: [
       {
         title: 'Languages',
-        list: ['English: C1', 'French: B2', 'Ukrainian: Native', 'Russian'],
+        list: ['English: C1', 'French: B2', 'Ukrainian: Native'],
       },
     ],
   },
@@ -162,7 +162,7 @@ const translations = {
         name: 'Daria Rodovnichenko',
         profession: 'Gérant De Café | Chef Barista',
         summary:
-          "Barista expérimentée et gestionnaire de café avec plus de 8 ans d'expérience dans la serviceclient, la gestion d'équipe et les opérations commerciales. Solide expériance dans l'augmentation des ventes et l'optimisation des opérations dans des environnements dynamiques et à rythme soutenu. Passionnée par la culture du café et dédiée à offrir un service exceptionnel.",
+          "Barista expérimentée et gestionnaire de café avec plus de 9 ans d'expérience dans la serviceclient, la gestion d'équipe et les opérations commerciales. Solide expériance dans l'augmentation des ventes et l'optimisation des opérations dans des environnements dynamiques et à rythme soutenu. Passionnée par la culture du café et dédiée à offrir un service exceptionnel.",
 
         skills: 'Compétences Clés',
         list: [
@@ -245,7 +245,7 @@ const translations = {
       phone: '+41 76 702 86 65',
       email: 'daria.rodovnichenko@gmail.com',
       linkedin: {
-        label: 'LinkedIn',
+        label: 'https://www.linkedin.com/in/daria-rodovnichenko/',
         url: 'https://www.linkedin.com/in/daria-rodovnichenko/',
       },
     },
@@ -304,12 +304,7 @@ const translations = {
     languages: [
       {
         title: 'Langues',
-        list: [
-          'Français: B2',
-          'Anglais: C1',
-          'Ukrainien: Langue maternelle',
-          'Russe',
-        ],
+        list: ['Français: B2', 'Anglais: C1', 'Ukrainien: Langue maternelle'],
       },
     ],
   },

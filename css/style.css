@@ -26,7 +26,7 @@ p {
 }
 
 .content-with-sidebar {
-  position:relative;
+  position: relative;
   display: flex;
   flex-direction: row-reverse;
   background: #fff;
@@ -37,12 +37,12 @@ p {
 
 #language-selector {
   position: absolute;
-  bottom: 18px;
-  right: 10px;
+  bottom: 60px;
+  right: 40px;
   z-index: 1000;
 }
 
-#language-selector button {
+#language-selector a {
   background-color: #b1dcff1f;
   border: 1px solid #6d9bf5;
   padding: 10px 20px;
@@ -53,12 +53,12 @@ p {
   transition: background-color 0.3s, color 0.3s;
 }
 
-#language-selector button:hover {
+#language-selector a:hover {
   background-color: #6d9bf5;
   color: white;
 }
 
-#language-selector button:focus {
+#language-selector a:focus {
   outline: none;
   box-shadow: 0 0 0 2px #007bff;
 }
@@ -220,6 +220,7 @@ p {
 .sidebar {
   background: #b1dcff1f;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-bottom: 40px;
 }
 
 .my-photo {
