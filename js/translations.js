@@ -90,24 +90,24 @@ const translations = {
       phone: '+41 76 702 86 65',
       email: 'daria.rodovnichenko@gmail.com',
       linkedin: {
-        label: 'https://www.linkedin.com/in/daria-rodovnichenko/',
+        label: '/daria-rodovnichenko/',
         url: 'https://www.linkedin.com/in/daria-rodovnichenko/',
       },
     },
     educationTitle: 'Education',
     education: [
       {
-        school: 'Nomades Advanced Technologies | Geneva',
+        school: 'Nomades Advanced Technologies | Geneva, Switzerland',
         specialization: 'Python Developer',
         period: 'May 2025 - June 2025',
       },
       {
-        school: 'Nomades Advanced Technologies | Geneva',
+        school: 'Nomades Advanced Technologies | Geneva, Switzerland',
         specialization: 'Angular Developer',
         period: 'March 2025 - May 2025',
       },
       {
-        school: 'Nomades Advanced Technologies | Geneva',
+        school: 'Nomades Advanced Technologies | Geneva, Switzerland',
         specialization: 'JS Software Developer',
         period: 'January 2025 - March 2025',
       },
@@ -245,24 +245,24 @@ const translations = {
       phone: '+41 76 702 86 65',
       email: 'daria.rodovnichenko@gmail.com',
       linkedin: {
-        label: 'https://www.linkedin.com/in/daria-rodovnichenko/',
+        label: '/daria-rodovnichenko/',
         url: 'https://www.linkedin.com/in/daria-rodovnichenko/',
       },
     },
     educationTitle: 'Education',
     education: [
       {
-        school: 'Nomades Advanced Technologies | Genève',
+        school: 'Nomades Advanced Technologies | Genève, Suisse',
         specialization: 'Développeur Python',
         period: 'Mai 2025 - Juin 2025',
       },
       {
-        school: 'Nomades Advanced Technologies | Genève',
+        school: 'Nomades Advanced Technologies | Genève, Suisse',
         specialization: 'Développeur Angular',
         period: 'Mars 2025 - Mai 2025',
       },
       {
-        school: 'Nomades Advanced Technologies | Genève',
+        school: 'Nomades Advanced Technologies | Genève, Suisse',
         specialization: 'Développeur Java Script',
         period: 'Janvier 2025 - Mars 2025',
       },

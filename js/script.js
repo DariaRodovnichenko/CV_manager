@@ -54,7 +54,7 @@ function updateContacts(language) {
   contactsSection.innerHTML = `
       <h3 class="sidebar-title">${contacts.title}</h3>
     <p class="contacts-item"><strong>Phone:</strong> <a href="tel:${contacts.phone}" class="contacts-number">${contacts.phone}</a></p>
-    <p class="contacts-item"><strong>Email:</strong> <a href="mailto:${contacts.email} class="contacts-email"">${contacts.email}</a></p>
+    <p class="contacts-item"><strong>Email:</strong> <a href="mailto:${contacts.email}" class="contacts-email">${contacts.email}</a></p>
     <p class="contacts-item"><strong>LinkedIn:</strong> <a href="${contacts.linkedin.url}"  class="contacts-email" target="_blank">${contacts.linkedin.label}</a></p>
      `;
 }
