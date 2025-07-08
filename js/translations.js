@@ -6,7 +6,7 @@ const translations = {
         name: 'Daria Rodovnichenko',
         profession: 'Coffee Shop Manager | Head Barista',
         summary:
-          'Experienced barista and cafe manager with over 8 years of experience in customer service, team management and business operations. Strong experience in increasing sales and optimizing operations in dynamic, fast-paced environments. Passionate about coffee culture and dedicated to providing exceptional service.',
+          'Experienced barista and cafe manager with over 9 years of experience in customer service, team management and business operations. Strong experience in increasing sales and optimizing operations in dynamic, fast-paced environments. Passionate about coffee culture and dedicated to providing exceptional service.',
 
         skills: 'Key Skills',
         list: [
@@ -20,6 +20,15 @@ const translations = {
 
     // Work Experience
     workExperience: [
+      {
+        title: 'Freelance Barista',
+        company: 'Freelance | Switzerland',
+        period: 'September 2024 - Present',
+        responsibilities: [
+          'Collaborate with various cafes and restaurants to provide barista services.',
+          'Support in various events and festivals, ensuring high-quality coffee service.',
+        ],
+      },
       {
         title: 'Barista',
         company: 'MAME Romandie Gmbh | Geneva, Switzerland',
@@ -87,6 +96,11 @@ const translations = {
     },
     educationTitle: 'Education',
     education: [
+      {
+        school: 'Nomades Advanced Technologies | Geneva',
+        specialization: 'Python Developer',
+        period: 'May 2025 - June 2025',
+      },
       {
         school: 'Nomades Advanced Technologies | Geneva',
         specialization: 'Angular Developer',
@@ -163,6 +177,15 @@ const translations = {
     workExperience: [
       {
         title: 'Barista',
+        company: 'Freelance | Suisse',
+        period: 'Septembre 2024 - Présent',
+        responsibilities: [
+          'Collaboration avec divers cafés et restaurants pour fournir des services de barista.',
+          'Soutien lors de divers événements et festivals, garantissant un service de café de haute qualité.',
+        ],
+      },
+      {
+        title: 'Barista',
         company: 'MAME Romandie Gmbh | Genève, Suisse',
         period: 'Septembre 2023 - Août 2024',
         responsibilities: [
@@ -228,6 +251,11 @@ const translations = {
     },
     educationTitle: 'Education',
     education: [
+      {
+        school: 'Nomades Advanced Technologies | Genève',
+        specialization: 'Développeur Python',
+        period: 'Mai 2025 - Juin 2025',
+      },
       {
         school: 'Nomades Advanced Technologies | Genève',
         specialization: 'Développeur Angular',
