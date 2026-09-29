@@ -27,10 +27,13 @@ function updateWorkExperience(language) {
     '[data-key="work-experience"]'
   );
   const positions = translations[language].workExperience;
+  const sectionTitle = translations[language].workExperienceTitle;
 
-  workExperienceSection.innerHTML = positions
-    .map(
-      position => `
+  workExperienceSection.innerHTML = `
+    <h3 class="sidebar-title">${sectionTitle}</h3>
+    ${positions
+      .map(
+        position => `
       <div class="work-experience-place">
         <h4 class="work-experience-position">${
           position.title
@@ -43,8 +46,8 @@ function updateWorkExperience(language) {
         </ul>
       </div>
     `
-    )
-    .join('');
+      )
+      .join('')}`;
 }
 
 function updateContacts(language) {
@@ -59,6 +62,33 @@ function updateContacts(language) {
      `;
 }
 
+function updateEventExperience(language) {
+  const eventExperienceSection = document.querySelector(
+    '[data-key="event-experience"]'
+  );
+  const eventExperience = translations[language].eventExperience;
+  const sectionTitle = translations[language].eventExperienceTitle;
+
+  eventExperienceSection.innerHTML = `
+     <h3 class="sidebar-title-event">${sectionTitle}</h3>${eventExperience
+       .map(
+         event => `
+      <div class="event-experience-place">
+         <h4 class="event-experience-position">
+            ${event.title}
+          </h4>
+
+          <p class="event-experience-description">${event.description}</p>
+
+          <p class="event-experience-period">${event.period}</p>
+        
+      </div>
+  
+      `
+       )
+       .join('')}`;
+}
+
 function updateEducation(language) {
   const educationSection = document.querySelector('[data-key="education"]');
   const educationData = translations[language].education;
@@ -66,20 +96,20 @@ function updateEducation(language) {
 
   educationSection.innerHTML = `
     <h3 class="sidebar-title">${educationTitle}</h3>${educationData
-    .map(edu => {
-      const institution =
-        edu.university && edu.school
-          ? `${edu.university} || ${edu.school}`
-          : edu.university || edu.school || '';
-      return `
+      .map(edu => {
+        const institution =
+          edu.university && edu.school
+            ? `${edu.university} || ${edu.school}`
+            : edu.university || edu.school || '';
+        return `
       <div class="education-item">
         <h4 class="education-university">${institution}</h4>
         <p class="education-specialization">${edu.specialization}</p>
         <p class="education-period">${edu.period}</p>
       </div>
       `;
-    })
-    .join('')}
+      })
+      .join('')}
   `;
 }
 
@@ -133,6 +163,7 @@ function updateLanguages(language) {
 
 function updateTranslations(language) {
   updateAboutMe(language);
+  updateEventExperience(language);
   updateWorkExperience(language);
   updateContacts(language);
   updateEducation(language);

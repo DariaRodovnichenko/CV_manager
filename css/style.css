@@ -50,7 +50,9 @@ p {
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 #language-selector a:hover {
@@ -202,17 +204,17 @@ p {
   margin: 8px 0 8px 0;
 }
 
+.responsibilities {
+  padding: 0 0 0 16px;
+  margin: 0;
+}
+
 .work-duties {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-}
-
-.responsibilities {
-  padding: 0 0 0 16px;
-  margin: 0;
 }
 
 /* Sidebar */
@@ -281,13 +283,75 @@ p {
   margin: 20px 4px 0 24px;
 }
 
+.event-experience-container
+{
+  margin: 20px 4px 0 22px;
+}
+
+.sidebar-title-event{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin: 0 0 8px 4px;
+}
+
 .sidebar-title {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
   color: #161d2a;
-  margin-bottom: 8px;
+  margin: 0 0 8px 0;
+}
+
+/* Event Experience */
+
+.event-experience-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6d9bf5;
+  margin: 0 0 12px 0;
+}
+
+.event-experience-place {
+  margin-bottom: 14px;
+  padding-left: 4px;
+  border-right: 2px solid #6d9bf5;
+  border-bottom: 4px solid #6d9bf5;
+  border-radius: 8px;
+  color: #6d9bf5;
+}
+
+.event-experience-place:hover {
+  background-color: white;
+}
+
+/* .event-experience-place:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+} */
+
+.event-experience-description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+.event-experience-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000f84;
+  margin-bottom: 12px;
 }
 
 /* Education */
